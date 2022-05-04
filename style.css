@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    background-color: #f0f2f5;
+}
+.div1{
+    position: absolute;
+    left: 10%;
+    top: 33%;
+    width: 50%;
+    
+}
+
+
+.h{
+    font-size: 49px;
+    margin-bottom: 11px;
+    color: #1877f2;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+.pr{
+    font-size: 27px;
+}
+.main{
+    position: absolute;
+    background-color: #ffff;
+    width: 30%;
+    height: 62%;
+    left: 55%;
+    top: 20%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgb(184, 184, 184),
+                -1px -1px 5px rgb(184, 184, 184);
+}
+.txt{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 85%;
+    background-color: #ffff;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    font-size: 15px; 
+      
+}
+.txt:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0.5px 0.5px 0.5px #1877f2,
+                -0.5px -0.5px 0.5px #1877f2;
+}
+.login-btn{
+   
+    margin: 10px ;
+    padding: 15px;
+    width: 95%;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: #ffff;
+    font-size: 20px;
+    border: none;
+    font-weight: bolder;
+
+}
+
+.login-btn:hover
+{
+    background-color: #1c6dd6;
+    cursor: pointer;
+}
+
+.a-link{
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid rgb(184, 184, 184) ;
+    margin: 15px;
+    background: none;
+    font-size: 15px;
+}
+.link{
+    background: none;
+    text-decoration: none;
+    color: #1877f2;
+}
+.link:hover
+{
+    text-decoration: underline;
+} 
+
+
+.ca{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    width: 42%;
+    
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #42b72a;
+    border-radius: 5px;
+}
+.na{
+    text-decoration: none;
+    background: none;
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 17px;
+    
+}
+
+.ca:hover
+{
+    background-color: #33a51c; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px)
+{
+ 
+    /* .main{
+        max-width: fit-content;
+    }
+    .txt
+    {
+        max-width:80%;
+    }
+.div1
+{
+    max-width: 100%;
+}
+.divvv
+{
+    margin-left: -10%;
+}
+.divvvv
+{
+    margin-left: -1%;
+} */
+
+
+.M{
+    max-width: 10%;
+
+}
+
+
+
+}
